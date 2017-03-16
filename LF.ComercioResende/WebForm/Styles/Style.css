@@ -1,0 +1,2382 @@
+﻿/*
+Nesse arquivo deve existir apenas os estilos padroes do sistema e os estilos que sobrescrevem o bootstrap
+*/
+/*#### INÍCIO DAS CLASSES DE OVERRIDE DO BOOTSTRAP*/
+body
+{
+    padding-bottom: 0px !important;
+}
+
+.navbar
+{
+    margin-bottom: 0px !important;
+}
+
+
+p.navbar-text
+{
+    margin-top: 8px !important;
+    margin-bottom: 7px !important;
+}
+
+footer > div.navbar
+{
+    min-height: 10px !important;
+}
+
+.page-header
+{
+    margin: 10px 0 10px !important;
+}
+
+.alert
+{
+    margin-bottom: 10px !important;
+}
+
+.paginate_button .active a
+{
+    color: #fff !important;
+}
+
+.tip-alert
+{
+    color: red;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.icon-link
+{
+    color: navy !important;
+    cursor: pointer;
+}
+
+.alert-dismissable .close, .alert-dismissible .close
+{
+    top: -15px !important;
+    right: -30px !important;
+    opacity: 1;
+}
+
+legend
+{
+    margin-bottom: 5px !important;
+    font-size: 13px !important;
+}
+
+.alert.alert-dismissible span
+{
+    font-size: 15px !important;
+}
+
+.panel-heading
+{
+    padding: 4px 15px !important;
+}
+
+.form-group
+{
+    margin-bottom: 7px !important;
+}
+
+.no-border
+{
+    border: 0 !important;
+    width: auto !important;
+}
+
+.border
+{
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+}
+
+.pagination
+{
+    margin: 0px !important;
+}
+
+.help-block
+{
+    margin-bottom: 0px !important;
+}
+
+
+.panel-heading [data-toggle="collapse"] i:after
+{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    content: "\e113";
+    transition: All 1.0429s ease-in-out;
+    -webkit-transition: All 0.5s ease-in-out;
+    -moz-transition: All 1.0429s ease-in-out;
+    -o-transition: All 1.0429s ease-in-out;
+}
+
+.panel-heading [data-toggle="collapse"].collapsed i:after
+{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transition: All 1.0429s ease-in-out;
+    -webkit-transition: All 0.5s ease-in-out;
+    -moz-transition: All 1.0429s ease-in-out;
+    -o-transition: All 1.0429s ease-in-out;
+}
+
+.text-primary
+{
+    color: #0079B9 !important;
+    text-align: left;
+    font-weight: bold;
+}
+
+p
+{
+    margin: 0 0 0px !important;
+}
+
+hr
+{
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.text-center
+{
+    text-align: center !important;
+}
+
+.input-smx
+{
+    height: 18px !important;
+    padding: 0px 0px !important;
+    width: 68% !important;
+    display: inline-block;
+    vertical-align: middle !important;
+}
+
+
+
+
+.input-sm, .form-group-sm .form-control
+{
+    height: 25px !important;
+}
+
+.input-group-addon
+{
+    padding: 3px 5px !important;
+}
+
+.input-sm, .form-group-sm .form-control
+{
+    padding: 3px 10px !important;
+}
+
+.input-sm, .form-group-sm .form-control
+{
+    padding: 0px 0px !important;
+}
+
+.modal-header
+{
+    padding: 5px !important;
+    text-align: center;
+}
+
+.modal-dialog
+{
+    margin: 3px !important;
+}
+
+.popover
+{
+    font-size: 11px !important;
+}
+
+textarea.form-control
+{
+    height: 150px !important;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th,
+.table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td
+{
+    padding: 5px /*!important*/; /*APRESENTANDO PROBLEMAS NO ITEN DE MAIS COLUNAS DO GRID RESPONSIVO */
+}
+/*#### FINAL DAS CLASSES DE OVERRIDE DO BOOTSTRAP*/
+
+* body
+{
+    background-color: #FFF;
+    font-size: 12px;
+    background-repeat: repeat-x;
+}
+
+.aLeft
+{
+    float: left;
+}
+
+.aRight
+{
+    float: right;
+}
+
+/* Icone e nome do módulo */
+.IconeModulo
+{
+    float: left;
+    margin-top: -5px;
+    width: 60px;
+    height: 40px;
+}
+
+.NomeModulo
+{
+    color: #227CAE;
+    font-weight: bold;
+    font-size: 17px;
+    float: left;
+}
+
+.giexloading
+{
+    background: url('/WebUI/Styles/Imagens/ajax-loader.gif') no-repeat scroll center center #fff;
+    z-index: 2;
+    margin: auto;
+    padding-top: 5px !important;
+    opacity: 0.85;
+    position: absolute;    
+    text-align: center;
+    font-size: 11px !important;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    /*min-height: 100px !important;*/
+    color: #000;
+}
+
+.block-page
+{
+    z-index: 999999998 !important;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0.4;
+    position: fixed;
+    background-color: black;
+}
+
+.block-page-loading
+{
+    z-index: 999999999 !important;
+    position: fixed;
+    padding: 25px;
+    margin: 0px;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+    color: black;
+    border: none;
+    opacity: 0.9;
+    background-color: white;
+    font-size: 16px;
+}
+
+.TabelaCabecalho
+{
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+}
+
+    /* linhas pares (even) */
+    .TabelaCabecalho tbody tr:nth-child(even)
+    {
+        background-color: #FCFCFC;
+    }
+    /* linhas ímpares (odd) */
+    .TabelaCabecalho tbody tr:nth-child(odd)
+    {
+        background-color: #F5F5F5;
+    }
+
+.row-block
+{
+    background-color: gainsboro;
+}
+
+.TituloCampo
+{
+    text-align: right;
+    color: Black;
+    width: 320px;
+    min-width: 50px;
+    font-weight: bold;
+    padding-right: 5px;
+    height: 20px;
+}
+
+
+.ValorCampo
+{
+    color: #A51020;
+    text-align: left;
+    width: 600px;
+    min-width: 50px;
+}
+
+.rotate-title
+{
+    -webkit-transform: rotate(325deg);
+    -moz-transform: rotate(325deg);
+    -o-transform: rotate(325deg);
+    margin-top: 3px;
+}
+
+
+
+
+.botaoPadrao
+{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #aaaaaa #cccccc #cccccc #aaaaaa;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    padding: 2px !important;
+    margin: 1px 1px 1px 1px;
+    font-family: Verdana;
+    font-size: 11px;
+}
+
+    .botaoPadrao:hover
+    {
+        opacity: 0.7;
+        box-shadow: 0.8px 0.8px 0.8px 0.8px #888888;
+    }
+
+.botaoEdicao
+{
+    margin-left: 3px;
+    height: 10px;
+    width: 10px;
+    cursor: pointer;
+    color: Green;
+}
+
+.login
+{
+    background: url('/WebUI/Styles/Sprites/sprite_header_icons.png') no-repeat 0px 0px;
+    width: 24px !important;
+    height: 24px;
+    display: inline-block;
+    margin: -1px 0px -5px -4px;
+    padding: 6px !important;
+    border: 0px;
+}
+
+.login-user
+{
+    background-position: 0px 0px;
+}
+
+    .login-user:hover
+    {
+        background-position: 0px -24px;
+    }
+
+.login-password
+{
+    background-position: -48px 0px;
+}
+
+.login-exit
+{
+    background-position: -24px 0px;
+}
+
+.subtitulo
+{
+    font-family: Calibri;
+    color: #434343;
+    font-size: 22px;
+    font-variant: small-caps;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+.auditoria
+{
+    font-family: Tahoma;
+    font-size: 11px;
+}
+
+.icone-auditoria
+{
+    color: navy;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.download-disponivel
+{
+    color: #32CD32;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.download-indisponivel
+{
+    color: #FF0000;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.modal-giex
+{
+    width: 99% !important;
+}
+
+.modal-conteudo
+{
+    height: 100% !important;
+}
+
+.iframe
+{
+    height: 99%;
+}
+
+.cursor-pointer
+{
+    cursor: pointer !important;
+}
+
+.closeModal
+{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #cfcfcf;
+    background-color: #e1e1e1;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+    margin: 2px;
+}
+
+.modalLog
+{
+    width: 600px;
+    height: 450px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    position: absolute;
+    float: left;
+    left: 50%;
+    top: 50%;
+    margin: -225px 0px 0px -300px;
+    z-index: 99999;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.detalhesmais 
+{
+    background: url('/WebUI/Styles/Sprites/sprt_25.png') no-repeat 0px 0px;
+    width: 20px !important;
+    height: 20px;
+    display: inline-block;
+    margin: -1px 0px -5px -4px;
+}
+
+.detalhes-lancsdesmembrados 
+{
+    background-position: -52px -2px;
+}
+
+.detalhes
+{
+    background: url('/WebUI/Styles/Sprites/sprite_detalhes_25.png') no-repeat 0px 0px;
+    width: 20px !important;
+    height: 20px;
+    display: inline-block;
+    margin: -1px 0px -5px -4px;
+}
+
+.detalhes-agregacoes
+{
+    background-position: 0 0;
+}
+
+.detalhes-alertas
+{
+    background-position: -25px 0;
+}
+
+.detalhes-andamentos
+{
+    background-position: -50px 0;
+}
+
+.detalhes-anexos
+{
+    background-position: -75px 0;
+}
+
+.detalhes-cadastros
+{
+    background-position: -100px 0;
+}
+
+.detalhes-caracteristicas
+{
+    background-position: 0 -25px;
+}
+
+.detalhes-citacoes
+{
+    background-position: -25px -25px;
+}
+
+.detalhes-contatos
+{
+    background-position: -50px -25px;
+}
+
+.detalhes-depositos
+{
+    background-position: -75px -25px;
+}
+
+.detalhes-despesas
+{
+    background-position: -100px -25px;
+}
+
+.detalhes-destinos
+{
+    background-position: 0 -50px;
+}
+
+.detalhes-dividas
+{
+    background-position: -25px -50px;
+}
+
+.detalhes-documentos
+{
+    background-position: -50px -50px;
+}
+
+.detalhes-embargos
+{
+    background-position: -75px -50px;
+}
+
+.detalhes-enderecos
+{
+    background-position: -100px -50px;
+}
+
+.detalhes-incidentes
+{
+    background-position: 0 -75px;
+}
+
+.detalhes-informacoes
+{
+    background-position: -25px -75px;
+}
+
+.detalhes-lancamentos
+{
+    background-position: -50px -75px;
+}
+
+.detalhes-negociacoes
+{
+    background-position: -75px -75px;
+}
+
+.detalhes-pagamentos
+{
+    background-position: -100px -75px;
+}
+
+.detalhes-parcelas
+{
+    background-position: 0 -100px;
+}
+
+.detalhes-penhoras
+{
+    background-position: -25px -100px;
+}
+
+.detalhes-pessoas
+{
+    background-position: -50px -100px;
+}
+
+.detalhes-processos
+{
+    background-position: -75px -100px;
+}
+
+.detalhes-processosadministrativos
+{
+    background-position: -100px -100px;
+}
+
+.detalhes-protestos
+{
+    background-position: -125px 0;
+}
+
+.detalhes-publicacoes
+{
+    background-position: -125px -25px;
+}
+
+.detalhes-recursos
+{
+    background-position: -125px -50px;
+}
+
+.detalhes-rubricas
+{
+    background-position: -125px -75px;
+}
+
+.detalhes-vinculos
+{
+    background-position: -125px -100px;
+}
+
+
+
+.title-divisor
+{
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-right: none;
+    border-top: none;
+    font-size: 14px !important;
+    font-weight: bold;
+    color: #A51020 !important;
+    box-shadow: -1px 1px 1px #eee;
+    padding: 5px;
+    margin: 0px 0px 0px 5px;
+}
+
+    .title-divisor .title
+    {
+        width: 135px;
+        display: inline-block;
+    }
+
+    .title-divisor .title-md
+    {
+        width: 200px;
+        display: inline-block;
+    }
+
+    .title-divisor .title-gd
+    {
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+    }
+
+
+    .title-divisor select, .title-divisor input
+    {
+        font-weight: normal;
+        color: #000000;
+        font-size: 12px;
+        border: 1px solid #cccccc;
+        height: 22px;
+        width: 68%;
+    }
+
+    .title-divisor textarea
+    {
+        font-weight: normal;
+        color: #000000;
+        font-size: 12px;
+        border: 1px solid #cccccc;
+    }
+
+    .title-divisor i
+    {
+        float: right;
+    }
+
+.cursor
+{
+    cursor: pointer;
+}
+
+.form-processo
+{
+    padding: 10px;
+    color: #666;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+    .form-processo .row
+    {
+        margin-top: 5px;
+    }
+
+    .form-processo input
+    {
+        width: 100%;
+        height: 22px;
+        border: 1px solid #cccccc;
+    }
+
+    .form-processo select, .selectGrid
+    {
+        width: 101%;
+        height: 22px;
+        border: 1px solid #cccccc;
+    }
+
+    .form-processo textarea
+    {
+        width: 100%;
+        border: 1px solid #cccccc;
+    }
+
+/*bootstrap class modify*/
+.nav-tabs > li > a > i
+{
+    color: #333;
+    font-size: 15px;
+    line-height: 0px;
+}
+
+.nav-tabs > li > a
+{
+    background-color: #f9f9f9;
+    color: #333;
+    outline: none;
+    height: 30px;
+    line-height: 10px;
+    margin-left: 5px;
+}
+
+.nav-tabs > li.active > a
+{
+    border-bottom: 1px solid #fff;
+    margin-top: 1px;
+}
+
+    .nav-tabs > li.active > a > i
+    {
+        color: #a51020;
+    }
+
+    .nav-tabs > li.active > a,
+    .nav-tabs > li.active > a:hover,
+    .nav-tabs > li.active > a:focus
+    {
+        color: #a51020;
+    }
+
+.filtrar-text
+{
+    color: #999999;
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin: 5px;
+    height: 20px;
+}
+
+.btn-filter-text
+{
+    display: none;
+}
+
+@media (min-width: 768px)
+{
+    .btn-filter-text
+    {
+        display: inline-block !important;
+    }
+
+    .nav-tabs > li > a > i
+    {
+        margin-right: 10px !important;
+    }
+}
+
+.btn-primary
+{
+    color: #fff;
+    background-color: #a51020;
+    border-color: transparent;
+    margin: 0px 5px;
+}
+
+    .btn-primary:hover,
+    .btn-primary:focus,
+    .btn-primary.focus,
+    .btn-primary:active,
+    .btn-primary.active,
+    .open > .dropdown-toggle.btn-primary
+    {
+        color: #fff;
+        background-color: #920E1B;
+        border-color: transparent;
+    }
+
+    .btn-primary:active,
+    .btn-primary.active,
+    .open > .dropdown-toggle.btn-primary
+    {
+        background-image: none;
+    }
+
+.aRight
+{
+    float: right;
+}
+
+.forms-filtros
+{
+    border: 1px solid #eee;
+    background-color: #fcfcfc;
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+
+.input-large-divisor
+{
+    width: 68% !important;
+    display: inline-block;
+}
+
+.input-divisor
+{
+    width: 1% !important;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+}
+
+.input-small-divisor
+{
+    width: 28% !important;
+    display: inline-block;
+}
+
+.modalNovaPessoa
+{
+    width: 700px;
+    height: 460px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    position: absolute;
+    float: left;
+    left: 50%;
+    top: 50%;
+    margin: -230px 0px 0px -350px;
+    z-index: 99999999999;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.modalNovoDocumento
+{
+    width: 700px;
+    height: 580px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    position: fixed;
+    float: left;
+    left: 50%;
+    top: 50%;
+    margin: -290px 0px 0px -350px;
+    z-index: 99999999999;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.noPadding
+{
+    padding: 0px;
+}
+
+.maskFull
+{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.8;
+    position: fixed;
+    z-index: 5555555;
+    float: left;
+    display: none;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus
+{
+    border: 1px solid #920E1B !important;
+    background-color: #920E1B !important;
+}
+
+.giextable th a
+{
+    color: #920E1B !important;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {    
+    z-index: 1 !important;
+}
+
+.forceNoExpand:before, .forceNoExpand th:before
+{
+    display: none !important;
+}
+
+/*Estilos para os modais do detalhe do processo*/
+.divModal
+{
+    display: none;
+    padding: 0px 10px;
+}
+
+#box p
+{
+    width: 100%;
+    height: 25px;
+    border: 1px solid #F2f2f2;
+    background-color: #f2f2f2;
+    padding: 5px;
+}
+
+.espacoDiv
+{
+    margin: 20px;
+}
+
+.espacoOrdem
+{
+    margin: 20px 0px;
+}
+
+textarea
+{
+    resize: none;
+}
+
+.textOrdem
+{
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+
+.TituloDiagonal
+{
+    text-align: right;
+    color: Black;
+    min-width: 50px;
+    font-weight: bold;
+    padding-right: 5px;
+    height: 20px;
+}
+
+.LinhaTempo-Content
+{
+    width: 170px;
+}
+
+.LinhaTempo-Content-arrow
+{
+    width: 130px;
+    margin: auto;
+}
+
+.LinhaTempo-Box
+{
+    float: left;
+    border: 1px solid silver;
+    width: 165px;
+    height: 70px;
+    max-height: 70px;
+    text-align: center;
+    padding: 20px 2px 20px 2px;
+    box-shadow: 2px 2px 3px #ccc;
+    font-size: 11px;
+}
+
+    .LinhaTempo-Box span
+    {
+        text-align: center;
+        color: #999;
+        width: 320px;
+        height: 20px;
+        font-weight: bold;
+    }
+
+.LinhaTempo-BoxEvento
+{
+    float: left;
+    border: 1px solid silver;
+    width: 165px;
+    height: 70px;
+    max-height: 70px;
+    text-align: center;
+    padding: 10px 2px 10px 2px;
+    box-shadow: 2px 2px 3px #ccc;
+    font-size: 11px;
+}
+
+    .LinhaTempo-BoxEvento span
+    {
+        text-align: center;
+        color: #999;
+        width: 320px;
+        height: 20px;
+        font-weight: bold;
+    }
+
+.LinhaTempo-Out
+{
+    padding: 12px 0px 12px 0px;
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+}
+
+    .LinhaTempo-Out span
+    {
+        text-align: center;
+        color: #999;
+        width: 320px;
+        min-width: 50px;
+        padding-right: 5px;
+        height: 20px;
+        font-weight: bold;
+        font-size: 11px;
+    }
+
+    .LinhaTempo-Out hr
+    {
+        border-bottom: 1px solid #cccccc;
+        min-width: 65px;
+    }
+
+.LinhaTempo-Arrow
+{
+    float: left;
+    padding: 20px 0px 20px 0px;
+}
+
+    .LinhaTempo-Arrow i
+    {
+        font-size: 30px;
+        color: #A51020;
+    }
+
+
+    .LinhaTempo-Arrow span .prescricao-padrao
+    {
+        font-size: 30px;
+        color: #999;
+    }
+
+    .LinhaTempo-Arrow span .prescricao-dias
+    {
+        font-size: 30px;
+        color: #A51020;
+    }
+
+    .LinhaTempo-Arrow span .prescricao-dias1
+    {
+        font-size: 30px;
+        color: #267103;
+    }
+
+.linhaTempoErro
+{
+    border: 1px solid silver;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 2px 2px 3px #ccc;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+    .linhaTempoErro span
+    {
+        color: #A51020;
+        text-align: center;
+        width: 600px;
+        min-width: 50px;
+    }
+
+.ico-expand
+{
+    margin-top: -15px;
+}
+
+
+
+.form-processo-LinhaTempo
+{
+    padding: 10px;
+    color: #999;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+}
+
+    .form-processo-LinhaTempo span
+    {
+        text-align: right;
+        color: Black;
+        width: 320px;
+        min-width: 50px;
+        font-weight: bold;
+        padding-right: 5px;
+        height: 20px;
+    }
+
+    .form-processo-LinhaTempo select, .selectGrid
+    {
+        font-weight: normal;
+        color: #000000;
+        font-size: 12px;
+        width: 350px;
+        height: 22px;
+        border: 1px solid #cccccc;
+    }
+
+/* CALENDARIO */
+.box-events-day
+{
+    width: 100%;
+    height: 95%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 5px;
+}
+
+    .box-events-day .event
+    {
+        display: block;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 5px;
+        height: 45px;
+        overflow: hidden;
+        width: 100%;
+        background-color: #fff;
+    }
+
+        .box-events-day .event:hover
+        {
+            background-color: #fcf8e3 !important;
+        }
+
+.ajax_loader
+{
+    background: url(Imagens/ajax-loader-16.gif);    
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    float: right;
+    margin: 20px 0 0px -35px;
+}
+
+.box-events-day .squareDefault
+{
+    width: 15px;
+    height: 40px;
+    display: table-cell;
+}
+
+.box-events-day .event:hover .squareDefault
+{
+    opacity: 0.7;
+}
+
+.box-events-day .squareGreen
+{
+    width: 15px;
+    height: 40px;
+    border: 1px solid #0e4909;
+    display: table-cell;
+}
+
+.box-events-day .event:hover .squareGreen
+{
+    background-color: #6ec365;
+}
+
+.box-events-day .squareGray
+{
+    width: 15px;
+    height: 40px;
+    border: 1px solid #333;
+    display: table-cell;
+}
+
+.box-events-day .event:hover .squareGray
+{
+    background-color: #999;
+}
+
+.box-events-day .date
+{
+    height: 40px;
+    width: 55px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-right:1px dotted #ccc;
+    margin-right:2px;
+}
+
+.box-events-day .description
+{
+    height: 40px;
+    width: 86%;
+    overflow: hidden;
+    display: table-cell;
+    vertical-align: top;
+    font-size: 10px;
+    padding-left:3px;
+}
+
+.mask-event-calendar
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1001;
+    background-color: #fff;
+    opacity: 0.4;
+    display: none;
+}
+
+.content-event-detail
+{
+    background-color: #fff;
+    box-shadow: -10px 0 15px #eee;
+    display: block;
+    height: 100%;
+    position: fixed;
+    opacity: 0;
+    right: -100px;
+    width: 80%;
+    z-index: 1001;
+    display: none;
+    top: 0;
+    color: #666;
+    overflow-y:auto;
+    padding-left:20px;
+}
+
+.red-link-add-event
+{
+    height: 30px;
+    text-align: center;
+    color: #A51020;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.gray-link-add-event
+{
+    height: 30px;
+    text-align: center;
+    color: #999;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.radioCalendar
+{
+    font-size: 10px;
+    font-weight: bold;
+    color: #666;
+    padding-left: 21%;
+    margin-bottom: 20px;
+}
+
+    .radioCalendar input
+    {
+        margin: 2px 5px 5px 5px;
+        vertical-align: middle;
+    }
+
+.campoObrigatorio
+{
+    border: 1px solid red !important;
+}
+
+[data-toggle="tab"] .btn-filter-text
+{
+    margin-top: 7px;
+}
+
+.campoErroValidacao
+{
+    color: red;
+}
+
+
+
+
+
+/*classes da tela de Login*/
+
+
+
+
+.BoxValidacao
+{
+    font-family: Trebuchet MS;
+    border: solid 1px silver;
+    font: Calibri;
+    color: #666;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    display: table;
+    width: 100%;
+    min-height: 100%;
+}
+
+.BoxTableValidacao
+{
+    width: 100%;
+    min-width: 300px;
+    min-height: 180px;
+    display: table;
+    table-layout: fixed;
+}
+
+.BoxRowValidacao
+{
+    display: table-row;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.BoxCellValidacao
+{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.BoxRowValidacaoMatriz
+{
+    display: inline-block;
+}
+
+.inputMatriz
+{
+    width: 64px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.LabelTituloValidacao
+{
+    color: #a51020;
+    font: bold 18px Calibri;
+    border-bottom: 1px solid silver;
+    padding: 3px 3px 3px 3px;
+    width: 100%;
+}
+
+.BoxInterno
+{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.Validacao
+{
+    background-image: url(Imagens/icones_modulos/spritesheet_validacao.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.Validacao-Biometria
+{
+    width: 100px;
+    height: 100px;
+    background-position: -31px -5px;
+    border: solid 1px silver;
+    border-radius: 4px;
+}
+
+    .Validacao-Biometria:hover
+    {
+        box-shadow: 0 0 7px #0063ff;
+    }
+
+.Validacao-Cartao
+{
+    width: 100px;
+    height: 100px;
+    background-position: -141px -5px;
+    border: solid 1px silver;
+    border-radius: 4px;
+}
+
+    .Validacao-Cartao:hover
+    {
+        box-shadow: 0 0 7px #0063ff;
+    }
+
+.Validacao-Matrizlbl
+{
+    font-size: 16px;
+    margin-left: -5px;
+    margin-top: 35px;
+}
+
+.Validacao-Jumpupass
+{
+    width: 100px;
+    height: 100px;
+    background-position: -251px -5px;
+    border: solid 1px silver;
+    border-radius: 4px;
+}
+
+    .Validacao-Jumpupass:hover
+    {
+        box-shadow: 0 0 7px #0063ff;
+    }
+
+
+.Validacao-BiomentriaFinger
+{
+    width: 16px;
+    height: 16px;
+    background-position: -5px -5px;
+    visibility: hidden;
+}
+
+.Validacao-D01
+{
+    position: relative;
+    top: 49px;
+    left: 10px;
+    width: 15px;
+}
+
+    .Validacao-D01:hover > i
+    {
+        visibility: visible;
+    }
+
+
+.Validacao-D02
+{
+    position: relative;
+    top: 6px;
+    left: 23px;
+    width: 15px;
+}
+
+    .Validacao-D02:hover > i
+    {
+        visibility: visible;
+    }
+
+
+.Validacao-D03
+{
+    position: relative;
+    top: -21px;
+    left: 47px;
+    width: 15px;
+}
+
+    .Validacao-D03:hover > i
+    {
+        visibility: visible;
+    }
+
+.Validacao-D04
+{
+    position: relative;
+    top: -32px;
+    left: 68px;
+    width: 15px;
+}
+
+    .Validacao-D04:hover > i
+    {
+        visibility: visible;
+    }
+
+.Validacao-D05
+{
+    position: relative;
+    top: -10px;
+    left: 90px;
+    width: 15px;
+}
+
+    .Validacao-D05:hover > i
+    {
+        visibility: visible;
+    }
+
+.Validacao-D06
+{
+    position: relative;
+    top: -26px;
+    left: 117px;
+    width: 15px;
+}
+
+    .Validacao-D06:hover > i
+    {
+        visibility: visible;
+    }
+
+.Validacao-D07
+{
+    position: relative;
+    top: -80px;
+    left: 138px;
+    width: 15px;
+}
+
+    .Validacao-D07:hover > i
+    {
+        visibility: visible;
+    }
+
+.Validacao-D08
+{
+    position: relative;
+    top: -100px;
+    left: 160px;
+    width: 15px;
+}
+
+    .Validacao-D08:hover > i
+    {
+        visibility: visible;
+    }
+
+.Validacao-D09
+{
+    position: relative;
+    top: -105px;
+    left: 184px;
+    width: 15px;
+}
+
+    .Validacao-D09:hover > i
+    {
+        visibility: visible;
+    }
+
+.Validacao-D10
+{
+    position: relative;
+    top: -94px;
+    left: 195px;
+    width: 15px;
+}
+
+    .Validacao-D10:hover > i
+    {
+        visibility: visible;
+    }
+
+
+.Validacao-BiometriaHands
+{
+    width: 225px;
+    height: 150px;
+    background-position: -5px -115px;
+    border: 1px solid silver;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.Validacao-Captura_Digital
+{
+    border: 1px solid silver;
+    width: 100px;
+    height: 130px;
+    margin-right: 10px;
+    margin-top: -5px;
+    display: inline-block;
+    float: right;
+}
+
+.VoltarValidacao
+{
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid silver;
+    cursor: pointer;
+    color: #a51020;
+    font-family: Trebuchet MS;
+    font: bold 13px Calibri !important;
+    padding: 5px;
+    text-align: right;
+}
+
+
+.Validacao-Menssagem
+{
+    color: #a51020;
+    font-family: Trebuchet MS;
+    font: bold 12px Calibri !important;
+    display: inline-block;
+    margin-left: 7px;
+}
+
+select[disabled]
+{
+    background-color: #ebebe4;
+}
+
+.breadcrumb a:hover
+{
+    color: #a51020;
+    text-decoration: none;
+}
+
+/*sobrescreve algumas propriedades padrões do bootstrap e demais componentes*/
+.breadcrumb
+{
+    font-size: 14px !important;
+}
+
+.breadcrumb-voltar
+{
+    font-size: 11px !important;
+}
+
+.panel-title
+{
+    font-size: 12px !important;
+}
+
+.panel
+{
+    box-shadow: none !important;
+}
+
+.panel-group .panel
+{
+    border-radius: 0 !important;
+}
+
+.paginate_button
+{
+    font-size: 9px !important;
+}
+
+.form-control
+{
+    box-shadow: none !important;
+    border-radius: 0px !important;
+}
+
+.nav-tabs > li > a
+{
+    border-radius: 0px !important;
+}
+
+.pagination > li:first-child > a, .pagination > li:first-child > span
+{
+    border-radius: 0px !important;
+}
+
+.pagination > li:last-child > a, .pagination > li:last-child > span
+{
+    border-radius: 0px !important;
+}
+
+/* Classes de estilos para o menu */
+.menu
+{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.menu-ultimos:before
+{
+    content: "\f005";
+}
+
+.menu-grp-atividades:before
+{
+    content: "\f0ae";
+}
+
+.menu-grp-ferramenta:before
+{
+    content: "\f0ad";
+}
+
+.menu-grp-localizador:before
+{
+    content: "\f002";
+}
+
+.menu-grp-campanha:before
+{
+    content: "\f0a1";
+}
+
+.menu-grp-atendimento:before
+{
+    content: "\f155";
+}
+
+.menu-grp-inscricao-da:before
+{
+    content: "\f02d";
+}
+
+.menu-grp-protesto:before
+{
+    content: "\f0e5";
+}
+
+.menu-grp-processos:before
+{
+    content: "\f19c";
+}
+
+.menu-grp-tribunal-justica:before
+{
+    content: "\f0e3";
+}
+
+.menu-grp-gestao-procuradoria:before
+{
+    content: "\f12e";
+}
+
+.menu-grp-arrecadacao:before
+{
+    content: "\f201";
+}
+
+.menu-grp-gerencial:before
+{
+    content: "\f200";
+}
+
+.menu-grp-relatorio:before
+{
+    content: "\f080";
+}
+
+.menu-grp-migracao:before
+{
+    content: "\f1c0";
+}
+
+.menu-grp-administracao:before
+{
+    content: "\f0f7";
+}
+
+.menu-grp-configuracao-geral:before
+{
+    content: "\f085";
+}
+
+.menu-grp-configuracao-acao:before
+{
+    content: "\f085";
+}
+
+.menu-grp-configuracao-antp:before
+{
+    content: "\f085";
+}
+
+.menu-grp-integracao:before
+{
+    content: "\f079";
+}
+
+.menu-grp-adm-administracao:before
+{
+    content: "\f085";
+}
+
+.menu-grp-adm-arquitetura:before
+{
+    content: "\f085";
+}
+
+.menu-grp-adm-bancario:before
+{
+    content: "\f085";
+}
+
+.menu-grp-adm-cadastro-basico:before
+{
+    content: "\f085";
+}
+
+.menu-grp-adm-calculo-monetario:before
+{
+    content: "\f085";
+}
+
+.menu-grp-adm-ferramentas:before
+{
+    content: "\f085";
+}
+
+.menu-grp-adm-gerencial:before
+{
+    content: "\f085";
+}
+
+.menu-grp-adm-integracao:before
+{
+    content: "\f085";
+}
+
+.menu-grp-adm-negociacoes:before
+{
+    content: "\f085";
+}
+
+.menu-grp-adm-pessoas:before
+{
+    content: "\f085";
+}
+
+.menu-grp-adm-processos:before
+{
+    content: "\f085";
+}
+
+.menu-grp-adm-protestos:before
+{
+    content: "\f085";
+}
+
+.upload-progress
+{
+    height: 30px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+.upload-progress-bar-info
+{
+    background-color: #5bc0de;
+}
+
+.upload-progress-bar
+{
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #555;
+    text-align: right;
+    background-color: #C8DFF9;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+    padding-top: 6px;
+}
+
+/*padronização nos icones contidos em grids no sistema*/
+.giextable .glyphicon-log-out:before
+{
+    cursor: pointer !important;
+    color: #a51020 !important;
+    font-size: 11px !important;
+}
+
+.giextable .glyphicon-new-window:before
+{
+    cursor: pointer !important;
+    color: #a51020 !important;
+    font-size: 11px !important;
+}
+
+.giextable .glyphicon-arrow-down:before
+{
+    cursor: pointer !important;
+    color: #a51020 !important;
+    font-size: 11px !important;
+}
+
+.giextable .glyphicon-arrow-up:before
+{
+    cursor: pointer !important;
+    color: #a51020 !important;
+    font-size: 11px !important;
+}
+
+.giextable .fa-money:before
+{
+    cursor: pointer !important;
+    color: #a51020 !important;
+    font-size: 11px !important;
+}
+
+.giextable .glyphicon-edit:before
+{
+    cursor: pointer !important;
+    color: #a51020 !important;
+    font-size: 11px !important;
+}
+
+.giextable .glyphicon-remove:before
+{
+    cursor: pointer !important;
+    color: #a51020 !important;
+    font-size: 11px !important;
+}
+
+.giextable .fa-minus-circle:before
+{
+    cursor: pointer !important;
+    color: #a51020 !important;
+    font-size: 11px !important;
+}
+
+.giextable .glyphicon-info-sign:before
+{
+    cursor: pointer !important;
+    color: navy !important;
+    font-size: 12px !important;
+}
+
+.giextable .glyphicon-ok:before
+{
+    cursor: pointer !important;
+    color: #a51020 !important;
+    font-size: 12px !important;
+}
+
+.giextable .glyphicon-ok-cinza:before
+{
+    cursor: default !important;
+    color: #444444 !important;
+    font-size: 12px !important;
+}
+
+.giextable .glyphicon-download-alt:before
+{
+    cursor: pointer !important;
+    color: #a51020 !important;
+    font-size: 12px !important;
+}
+
+.campo-invalido
+{
+    border: 1px solid red !important;
+}
+
+.btn-expand, .btn-nav
+{
+    width: 20px;
+    height: 20px;
+    float: right;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin: 5px;
+}
+
+.pasta-icons
+{
+    width: 20px;
+    height: 20px;
+    background-image: url(Imagens/pdfViewerIcons.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.ico-expand-all
+{
+    background-position: -21px -1px;
+}
+
+.ico-minimize-all
+{
+    background-position: -1px -1px;
+}
+
+.ico-hide-ctrl
+{
+    background-position: -41px -1px;
+}
+
+.ico-show-ctrl
+{
+    background-position: -61px -1px;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active
+{
+    border-color: #a51020 !important;
+}
+
+.popover
+{
+    max-width: none !important;
+}
+
+
+
+#message
+{
+    position: fixed;
+    right: 5px;
+    top: 5px;
+    z-index:99999999999 !important;
+    opacity: 0.9;
+}
+
+.message-ico
+{
+    float: left;
+    width: 30px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 27px;
+    margin: 0px 5px 0px 5px;
+}
+
+.message-text
+{
+    min-width: 320px;
+    max-width: 320px;
+    font-size: 11px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 45px;
+    font-weight: bold;
+    overflow-x: hidden;
+}
+
+.message-close
+{
+    cursor: pointer;
+    font-family: verdana;
+    font-size: 9px;
+    font-weight: bold;
+    height: 15px;
+    line-height: 13px;
+    float: right;
+    display: block;
+    right: 3px;
+    text-align: center;
+    top: 3px;
+    width: 15px;
+    margin: 2px 2px;
+}
+
+.message-box
+{
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 50px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 3px #ccc;
+    border: 1px solid #ccc;
+    display: none;
+    text-align: justify;
+    padding: 3px 0px;
+    overflow-x: hidden;
+}
+
+.box-erro
+{
+    background-color: #f0bdbd;
+    color: #993333;
+}
+
+    .box-erro .message-close
+    {
+        background-color: #993333;
+        color: #FFCCCC;
+    }
+
+.box-sucesso
+{
+    background-color: #a7e7a7;
+    color: #009900;
+}
+
+    .box-sucesso .message-close
+    {
+        background-color: #009900;
+        color: #BFFFBF;
+    }
+
+.box-info
+{
+    background-color: #afd2f5;
+    color: #006699;
+}
+
+    .box-info .message-close
+    {
+        background-color: #006699;
+        color: #B9DCFF;
+    }
+
+.box-alerta, #avisoLimiteProcesso, #avisoLimitePesquisa
+{
+    background-color: #f5f5a6;
+    color: #EC2F00;
+}
+
+    .box-alerta .message-close
+    {
+        background-color: #EC2F00;
+        color: #FFFFB0;
+    }
+
+#avisoLimiteProcesso, #avisoLimitePesquisa
+{
+    width:100%;
+    height:50px;
+    border:1px solid #ccc !important;
+    float:left;
+    margin-bottom:5px;
+}
+
+.breadcrumb
+{    
+    margin: 0px !important;
+    margin-bottom: 10px !important;
+    border-radius: 0px !important;
+    max-height: 30px !important;
+    padding-top: 6px !important;    
+}
+
+.tab-pane
+{
+    min-height: 100px !important;   
+}
+
+/*Classes da nova gestao de andamentos*/
+.filter-title
+        {
+            margin: 5px;
+            border-bottom: 1px solid #ccc;
+            color: #a51020;
+            padding: 5px;
+            font-size: 15px;
+        }
+
+        .box-indicador,
+        .box-indicador-disabled
+        {
+            height: 105px;
+            width: 19%;
+            display:inline-block;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+        }
+
+            .box-indicador:hover
+            {
+                cursor: pointer;
+            }
+
+            .box-indicador:hover,
+            .box-indicador.active
+            {
+                border: 1px solid #a51020;
+            }
+
+                .box-indicador:hover .box-count,
+                .box-indicador.active .box-count
+                {
+                    background-color: #a51020;
+                }
+
+            .box-indicador > .box-count,
+            .box-indicador-disabled > .box-count
+            {
+                height: 70px;
+                width: 100%;
+                background-color: #aaa;
+                border: 5px 0px 0px 0px;
+                text-align: center;
+                line-height: 70px;
+                color: #fff;
+                font-size: 20px;
+                display: block;
+            }
+
+            .box-indicador > .box-title,
+            .box-indicador-disabled > .box-title
+            {
+                height: 30px;
+                width: 100%;
+                background-color: #fff;
+                text-align: center;
+                line-height: 30px;
+                color: #666;
+                font-size: 12px;
+                display: block;
+                overflow: hidden;
+            }
+
+        .filter_dash .date
+        {
+            background-color: #999;
+            color: #fff;
+            font-weight: bold;
+            margin: -5px -15px 0px 0px;
+            padding: 4px;
+        }
+
+        .box-andamentos
+        {
+            border: 1px solid #ccc;
+            width: 150px;
+            height: 110px;
+            background-color: #f4f4f4;
+            padding: 5px;
+            display: inline-block;
+            margin:5px 0px 0px 10px;
+            cursor: pointer;
+            overflow:hidden;
+        }
+
+            .box-andamentos.active, .box-andamentos:hover
+            {
+                border: 1px solid #a51020;
+                background-color: #efeded;
+                color: #a51020;
+            }
+
+            .box-andamentos > .count
+            {
+                height: 40px;
+                width: 100%;
+                text-align: center;
+                line-height: 40px;
+                font-size: 20px;
+                display: block;
+            }
+
+            .box-andamentos > .box-title
+            {
+                height: 60px;
+                width: 100%;
+                text-align: center;
+                display: block;
+                overflow: hidden;
+            }
+
+        .ico-button
+        {
+            color: #920e1b;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+
+
+input[type='checkbox'], input[type='radio'] {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeSpeed;
+    width: 13px;
+    height: 13px;
+    margin: 0;
+    margin-right: 1px;
+    display: block;
+    float: left;
+    position: relative;
+    cursor:pointer;
+}

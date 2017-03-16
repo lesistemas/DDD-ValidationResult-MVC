@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - LF.ComercioResende.Presentation", "0 - LF.ComercioResende.Presentation", "{C27098EC-7BB5-4F07-A654-77702B83955A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - LF.ComercioResende.Application", "2 - LF.ComercioResende.Application", "{B53CB23F-FF6F-42B6-A894-315FBBC1C512}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - LF.ComercioResende.Domain", "3 - LF.ComercioResende.Domain", "{9AC84475-0BE7-4C4E-9709-82AAAC0B7A1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - LF.ComercioResende.WebServices", "1 - LF.ComercioResende.WebServices", "{A148B728-7207-45D9-A09A-9D31EEC035C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 -LF.ComercioResende.Infra", "4 -LF.ComercioResende.Infra", "{F3935CF6-1C81-4606-A564-671F6BB1034C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 -LF.ComercioResende.Infra.Data", "4.1 -LF.ComercioResende.Infra.Data", "{110C3579-4FAF-4A13-8986-7136D64D0740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LF.ComercioResende.Domain", "LF.ComercioResende.Domain\LF.ComercioResende.Domain.csproj", "{168FE8DC-D6BF-4047-88B8-53216C80C086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebForm", "WebForm\WebForm.csproj", "{4DC1D83C-9E44-4E7D-A916-001C177FE08A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{40C224AF-E3D3-4BC8-884B-5318B550B1B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{168FE8DC-D6BF-4047-88B8-53216C80C086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168FE8DC-D6BF-4047-88B8-53216C80C086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168FE8DC-D6BF-4047-88B8-53216C80C086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168FE8DC-D6BF-4047-88B8-53216C80C086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DC1D83C-9E44-4E7D-A916-001C177FE08A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC1D83C-9E44-4E7D-A916-001C177FE08A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC1D83C-9E44-4E7D-A916-001C177FE08A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC1D83C-9E44-4E7D-A916-001C177FE08A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C224AF-E3D3-4BC8-884B-5318B550B1B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C224AF-E3D3-4BC8-884B-5318B550B1B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C224AF-E3D3-4BC8-884B-5318B550B1B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C224AF-E3D3-4BC8-884B-5318B550B1B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DC1D83C-9E44-4E7D-A916-001C177FE08A} = {C27098EC-7BB5-4F07-A654-77702B83955A}
+		{40C224AF-E3D3-4BC8-884B-5318B550B1B2} = {C27098EC-7BB5-4F07-A654-77702B83955A}
+		{168FE8DC-D6BF-4047-88B8-53216C80C086} = {9AC84475-0BE7-4C4E-9709-82AAAC0B7A1E}
+		{110C3579-4FAF-4A13-8986-7136D64D0740} = {F3935CF6-1C81-4606-A564-671F6BB1034C}
+	EndGlobalSection
+EndGlobal

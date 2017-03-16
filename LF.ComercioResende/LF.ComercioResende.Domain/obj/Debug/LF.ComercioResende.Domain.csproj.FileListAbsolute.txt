@@ -1,0 +1,2 @@
+C:\Users\Leandro Farias\Documents\GitHub\ProjetoBase-DDD-ValidationResult\LF.ComercioResende\LF.ComercioResende.Domain\obj\Debug\LF.ComercioResende.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Leandro Farias\Desktop\LF.ComercioResende\LF.ComercioResende.Domain\obj\Debug\LF.ComercioResende.Domain.csprojResolveAssemblyReference.cache
